@@ -1,0 +1,54 @@
+{
+    "name": "Inputs",
+    "maps": [
+        {
+            "name": "Selector",
+            "id": "52821959-56dd-43ba-be2e-82aed71e3e7d",
+            "actions": [
+                {
+                    "name": "MousePos",
+                    "type": "PassThrough",
+                    "id": "5636304f-5af1-4fb8-9d31-f836276b418e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "8061fd07-36c1-4fe5-bd73-c18287f4aab8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "30aff2b0-3a40-4610-81fd-5f19e03a3f42",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73c1d4f4-462c-4395-b8d4-771823ad3007",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
